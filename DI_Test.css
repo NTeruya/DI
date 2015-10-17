@@ -1,0 +1,292 @@
+/* CSS declarations go here */
+.sidebar {
+    width: 432px;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: #636363;
+
+}
+img.resize{
+    width:335px; /* you can use % */
+    height: auto;
+}
+.profile_pic {
+    width: 335px;
+    height: 335px;
+    position: fixed;
+    z-index: 1;
+    left: 48px;
+    top: 42px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-align: center;
+
+}
+
+
+.main_container {
+    width: 100%;  
+    height: 100%;
+    position: fixed;
+    left: 432px;
+    top: 216px;
+    background-color: #d9d9d9;
+}
+.header {
+    width: 100%;
+    height: 216px;
+    position: fixed;
+    left: 432px;
+    top: 0px;
+    background-color: #898989;
+}
+.teach_Name {
+    width: 335px;
+    height: 40px;
+    position: fixed;
+    top: 387px;
+    left: 48px;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    
+}
+.line {
+    width: 432px;
+    height: 3px;
+    position: fixed;
+    top: 504px;
+    left: 0px;
+    z-index: 1;
+    background-color: #d9d9d9;
+    
+}
+
+.act_icon {
+    width: 49px;
+    height: 49px;
+    position: fixed;
+    top: 557px;
+    left: 47px;
+    z-index: 1;
+}
+.activities {
+    width: 182px;
+    height: 35px;
+    position: fixed;
+    top: 554px;
+    left: 120px;
+    z-index: 1;
+    color: #ed953f;
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    font-variant: small-caps;
+
+}
+.activities_line {
+    width: 3px;
+    height: 216px;
+    position: fixed;
+    top: 615px;
+    left: 129px;
+    z-index: 1;
+    background-color: #ed953f;
+}
+.activity_1 {
+    width: 197px;
+    height: 35px;
+    position: fixed;
+    top: 613px;
+    left: 139px;
+    z-index: 1;
+    color: #b7b7b6;
+    font-family: 'Lato', sans-serif;
+    font-size: 38.5px;
+    font-weight: 400;
+    font-variant: small-caps;
+    
+    
+}
+.activity_2 {
+    width: 197px;
+    height: 31px;
+    position: fixed;
+    top: 670px;
+    left: 139px;
+    z-index: 1;
+    color: #b7b7b6;
+    font-family: 'Lato', sans-serif;
+    font-size: 38.5px;
+    font-weight: 400;
+    font-variant: small-caps;
+    
+}
+.activity_3 {
+    width: 197px;
+    height: 31px;
+    position: fixed;
+    top: 726px;
+    left: 139px;
+    z-index: 1;
+    color: #b7b7b6;
+    font-family: 'Lato', sans-serif;
+    font-size: 38.5px;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+.activity_4 {
+    width: 197px;
+    height: 31px;
+    position: fixed;
+    top: 782px;
+    left: 139px;
+    z-index: 1;
+    color: #b7b7b6;
+    font-family: 'Lato', sans-serif;
+    font-size: 38.5px;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+
+.stu_icon {
+    width: 51px;
+    height: 51px;
+    position: fixed;
+    top: 881px;
+    left: 47px;
+    z-index: 1;
+}
+.students_line {
+    width: 3px;
+    height: 209px;
+    position: fixed;
+    top: 944px;
+    left: 129px;
+    z-index: 1;
+    background-color: #c0f0d4;
+}
+.students {
+    width: 177px;
+    height: 35px;
+    position: fixed;
+    top: 879px;
+    left: 120px;
+    z-index: 1;
+    color: #c0f0d4;
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+.student_1 {
+    width: 197px;
+    height: 31px;
+    position: fixed;
+    top: 939px;
+    left: 138px;
+    z-index: 1;
+    color: #b7b7b6;
+    font-family: 'Lato', sans-serif;
+    font-size: 38.5px;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+.student_2 {
+    width: 197px;
+    height: 31px;
+    position: fixed;
+    top: 994px;
+    left: 138px;
+    z-index: 1;
+    color: #b7b7b6;
+    font-family: 'Lato', sans-serif;
+    font-size: 38.5px;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+.student_3 {
+    width: 197px;
+    height: 31px;
+    position: fixed;
+    top: 1050px;
+    left: 138px;
+    z-index: 1;
+    color: #b7b7b6;
+    font-family: 'Lato', sans-serif;
+    font-size: 38.5px;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+.student_4 {
+    width: 197px;
+    height: 31px;
+    position: fixed;
+    top: 1101px;
+    left: 138px;
+    z-index: 1;
+    color: #b7b7b6;
+    font-family: 'Lato', sans-serif;
+    font-size: 38.5px;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+
+.button_1 {
+    width: 720px;
+    height: 720px;
+    position: fixed;
+    top: 288px;
+    left: 504px;
+    z-index: 1;
+    background-color: #7d7d7d;
+}
+.button_2 {
+    width: 720px;
+    height: 720px;
+    position: fixed;
+    top: 288px;
+    left: 1368px;
+    z-index: 1;
+    background-color: #7d7d7d;
+}
+.pic_cont {
+    width: 1584px;
+    height: 360px;
+    position: fixed;
+    top: 1080px;
+    left: 504px;
+    z-index: 1;
+    background-color: #7d7d7d;
+}
+
+.header_title {
+    font:85px 'Lato';
+    width: 75%;
+    height:63px;
+    top: 57px;
+    left: 594px;
+    z-index: 1;
+    position: fixed;
+    color: #ffffff;
+    font-variant: small-caps;
+    text-align: center;
+    margin: 0 auto;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+div.student_1:hover,div.student_2:hover,div.student_3:hover,div.student_4:hover,div.activity_1:hover,div.activity_2:hover,div.activity_3:hover,div.activity_4:hover{
+    color: #ffffff;
+    left:149px;
+    font-size: 39.5px;
+}
